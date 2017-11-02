@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+	#drinks li {
+	  font-weight: normal !important;
+	}
+
+	#drinks:first-child li.drinks__drink {
+	  font-weight: bold;
+	}
+
+	#drinks li.drinks__drink {
+	  font-weight: normal;
+	}
+
+	#drinks .drinks__drink {
+	  font-weight: bold;
+	}
+
+	#drinks li {
+	  font-weight: normal;
+	}
+
+	.drinks .drinks__drink {
+	  font-weight: bold;
+	}
+
+	.drinks__drink {
+	  font-weight: normal;
+	}
+
+	html body ul li {
+	  font-weight: bold;
+	}
+
+	ul li {
+	  font-weight: normal;
+	}
+
+	li {
+	  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <ul id="drinks" class="drinks">
+    <li class="drinks__drink" style="font-weight: bold !important;font-weight: normal !important;">Whiskey &amp; Ginger Ale</li>
+    <li class="drinks__drink drinks__drink--fav">Wheat Beer</li>
+    <li class="drinks__drink">Mint Julip</li>
+  </ul>
+</body>
+</html>
